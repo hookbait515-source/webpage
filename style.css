@@ -1,1 +1,25 @@
-
+body {
+    display grid;
+    grid-template-areas:
+      "Header"
+      "Main"
+    grid-template-columns: 300px 1fr 300px; /* left, main, right */
+    grid-template-rows: auto 1fr auto;
+    height: 120vh;
+    margin: 0;
+    font-family: Helvetica;
+}
+Header {
+    grid-area: Header;
+    background: #644117
+    color: black;
+    text-align: left;
+    padding: 2rem;
+}
+Main { 
+    grid-area: main;
+    padding: 2rem;
+    backround: #FAFAFA
+    color: black;
+    text-align: left;
+}
