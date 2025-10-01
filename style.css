@@ -11,7 +11,7 @@ body {
 }
 Header {
     grid-area: Header;
-    background: #644117
+    background: #644117;
     color: black;
     text-align: left;
     padding: 2rem;
@@ -19,7 +19,7 @@ Header {
 Main { 
     grid-area: main;
     padding: 2rem;
-    backround: #FAFAFA
+    backround: #FAFAFA;
     color: black;
     text-align: left;
 }
