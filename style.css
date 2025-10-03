@@ -3,7 +3,6 @@ body {
     grid-template-areas:
       "header"
       "main"
-      "footer"
     grid-template-columns: 300px 1fr 300px; /* left, main, right */
     grid-template-rows: auto 1fr auto;
     height: 120vh;
