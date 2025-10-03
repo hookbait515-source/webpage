@@ -23,3 +23,10 @@ main {
     color: black;
     text-align: left;
 }
+footer {
+    background: #644117
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 40px;
+}
