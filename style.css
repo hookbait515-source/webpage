@@ -3,7 +3,7 @@ body {
     grid-template-areas:
       "header"
       "main"
-      "footer"
+      "footer";
     grid-template-columns: 200px 1fr 200px; /* left, main, right */
     grid-template-rows: auto 1fr auto;
     height: 120vh;
@@ -20,16 +20,14 @@ header {
 main { 
     grid-area: main;
     padding: 4rem;
-    backround: #FAFAFA;
+    background: #FAFAFA;
     color: black;
     text-align: left;
 }
 footer {
     grid-area: footer;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     background: #644117;
     color: black;
     text-align: center;
+    padding: 1rem;
 }
