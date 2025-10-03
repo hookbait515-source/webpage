@@ -26,19 +26,19 @@ header {
   padding: 1rem;
 }
 
-/* Right sidebar */
-.right-sidebar {
-  grid-area: right;
-  background-color: #ddd;
-  padding: 1rem;
-}
-
 /* Main content */
 main {
   grid-area: main;
   background: #fafafa;
   padding: 2rem;
   color: black;
+}
+
+/* Right sidebar */
+.right-sidebar {
+  grid-area: right;
+  background-color: #ddd;
+  padding: 1rem;
 }
 
 /* Footer */
