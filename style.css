@@ -1,22 +1,22 @@
 body {
     display grid;
     grid-template-areas:
-      "Header"
-      "Main"
+      "header"
+      "main"
     grid-template-columns: 300px 1fr 300px; /* left, main, right */
     grid-template-rows: auto 1fr auto;
     height: 120vh;
     margin: 0;
     font-family: Helvetica;
 }
-Header {
-    grid-area: Header;
+header {
+    grid-area: header;
     background: #644117;
     color: black;
     text-align: left;
     padding: 2rem;
 }
-Main { 
+main { 
     grid-area: main;
     padding: 2rem;
     backround: #FAFAFA;
