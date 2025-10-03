@@ -5,6 +5,7 @@ body {
       "main"
       "footer"
     grid-template-columns: 200px 1fr 200px; /* left, main, right */
+    grid-template-rows: auto 1fr auto;
     height: 120vh;
     margin: 0;
     font-family: Helvetica;
