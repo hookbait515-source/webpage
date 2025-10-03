@@ -28,6 +28,7 @@ footer {
     grid-area: footer;
     background: #644117;
     color: black;
-    text-align: center;
-    padding: 5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
