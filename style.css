@@ -15,11 +15,11 @@ header {
     background: #644117;
     color: black;
     text-align: left;
-    padding: 30px;
+    padding: 5rem;
 }
 main { 
     grid-area: main;
-    padding: 45px;
+    padding: 5rem;
     backround: #FAFAFA;
     color: black;
     text-align: left;
@@ -27,8 +27,7 @@ main {
 footer {
     grid-area: footer;
     background: #644117;
-    color: orange;
-    text-align: right;
-    padding: 500px;
-    margin-top: 40px;
+    color: black;
+    text-align: center;
+    padding: 5rem;
 }
