@@ -3,6 +3,7 @@ body {
     grid-template-areas:
       "header"
       "main"
+      "footer"
     grid-template-columns: 300px 1fr 300px; /* left, main, right */
     grid-template-rows: auto 1fr auto;
     height: 120vh;
@@ -24,6 +25,7 @@ main {
     text-align: left;
 }
 footer {
+    grid-area: footer;
     background: #644117;
     color: orange;
     text-align: right;
