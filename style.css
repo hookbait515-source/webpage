@@ -15,11 +15,11 @@ header {
     background: #644117;
     color: black;
     text-align: left;
-    padding: 5rem;
+    padding: 2.5rem;
 }
 main { 
     grid-area: main;
-    padding: 5rem;
+    padding: 4rem;
     backround: #FAFAFA;
     color: black;
     text-align: left;
