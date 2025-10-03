@@ -24,11 +24,10 @@ main {
     text-align: left;
 }
 footer {
-    grid-area: footer;
-    background: #644117;
-    color: black;
     position: fixed;
     bottom: 0;
     width: 100%;
+    background: #644117;
+    color: black;
     text-align: center;
 }
